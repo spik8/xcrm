@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     @include('partials._head')
     @include('partials._style')
     @yield('style')

@@ -16,7 +16,8 @@ Route::get('/projekt', 'PagesController@getChoice');
 Route::get('/form', 'PagesController@getForm');
 Route::get('/badania', 'PagesController@getResearch');
 Route::get('/wysylka', 'PagesController@getShipment');
-Route::get('/getCity/{city?}', 'PagesController@getCity');
+Route::get('/getCity', 'PagesController@getCity');
 Route::get('/storageResearch', 'PagesController@storageResearch');
 Route::get('/gererateCSV', 'PagesController@gererateCSV');
+Route::get('/searchFromData', 'PagesController@searchFromData');
 
